@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #548687;
+	text-align: center;
+}
+.container{
+	/* border: 1px solid black; */
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.game{
+	/* border: 1px solid black; */
+	height: 60vmin;
+	width: 60vmin;
+	/* padding: 10px auto;	 */
+	
+}
+.box{
+	/* border: 1px solid black; */
+	width: 18vmin;
+	height: 18vmin;
+	border-radius: 1rem;
+	/* border: none; */
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
